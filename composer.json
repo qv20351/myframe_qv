@@ -1,25 +1,25 @@
 {
-  "name": "izniburak/pdox",
+  "name": "qv20351/myframe_qv",
   "type": "library",
-  "description": "Useful Query Builder, PDO Class for PHP. A simple access to your SQL records.",
-  "keywords": ["php","pdo","sql","query","builder"],
-  "homepage": "https://github.com/izniburak/PDOx",
+  "description": "Useful qv Frame",
+  "keywords": ["php","qv_frame"],
+  "homepage": "https://github.com/qv20351/myframe_qv/",
   "license": "MIT",
   "authors": [
     {
-      "name": "İzni Burak Demirtaş",
-      "email": "info@burakdemirtas.org",
-      "homepage": "http://burakdemirtas.org"
+      "name": "qv20351",
+      "email": "info@website123.tk",
+      "homepage": "http://website123.tk"
     }
   ],
   "require": {
     "php": ">=5.4.0",
-    "ext-pdo": "*"
+   
     
   },
   "autoload": {
     "psr-4": {
-      "Buki\\": "src"
+      "myframe_qv\\": "app"
     }
   },
   "minimum-stability": "dev"
